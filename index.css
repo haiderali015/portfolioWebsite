@@ -42,3 +42,10 @@ nav ul li a{
     margin-left: 8%;
     margin-top: 15%;
 }
+
+.info h1
+{
+    font-size: 70px;
+    color: #212121;
+    margin-bottom: 20px;
+}
