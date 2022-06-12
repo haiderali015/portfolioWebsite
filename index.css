@@ -86,4 +86,14 @@ span{
     left: 60%;
     bottom: 7%;
     transform: translateX(-50%);
+    transition: bottom 1s , left 1s;
 }
+
+.img-box:hover .back-img
+{
+    bottom: 80px;
+}
+/* .img-box:hover .back-img
+{
+    left: 74%;
+} */
