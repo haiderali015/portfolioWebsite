@@ -3,11 +3,23 @@
     padding: 0;
 }
 
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#212121;
+
+}
+
+.dark-theme
+{
+    
+    --primary-color:#000106;
+    --secondary-color:#fff;
+}
 .hero
 {
     height: 100vh;
     width: 100%;
-    background: #eff4fd;
+    background: var(--primary-color);
     font-family: sans-serif;
     position: relative;
 }
@@ -35,7 +47,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #606163;
+    color: var(--secondary-color);
 }
 .info
 {
@@ -46,7 +58,7 @@ nav ul li a{
 .info h1
 {
     font-size: 70px;
-    color: #212121;
+    color: var(--secondary-color);
     margin-bottom: 20px;
 }
 
@@ -55,7 +67,7 @@ span{
 }
 
 .info p{
-    color: #606163;
+    color: var(--secondary-color);
     line-height: 22px;
 }
 
@@ -107,6 +119,23 @@ span{
 .sociallinks a
 {
     font-size: 30px;
-    color: #606163;
+    color: var(--secondary-color);
     margin-right: 20px;
+}
+
+.sociallinks a:hover
+{
+    color: #ff4321;
+}
+
+#icon
+{
+    width: 30px;
+    cursor: pointer;
+}
+
+nav ul{
+    text-align: right;
+    flex: 1;
+    /* is trh sara menu ek sath agya hai. pehle gap tha apas men */
 }
